@@ -1,0 +1,5 @@
+parameter,qfi_contribution,percent_contribution
+q_factor,1.20e+19,52.2
+mode_volume,6.80e+18,29.6
+nonlinearity,3.20e+18,13.9
+loss,1.00e+18,4.3

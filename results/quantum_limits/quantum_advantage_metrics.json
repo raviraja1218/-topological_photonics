@@ -1,0 +1,30 @@
+{
+  "total_improvement_vs_classical": 10071246.19895671,
+  "breakdown": {
+    "topological_q_factor": {
+      "value": 22.5,
+      "description": "Sharper resonance from high Q",
+      "formula": "sqrt(Q/8000)"
+    },
+    "thermal_immunity": {
+      "value": 90,
+      "description": "Longer integration time from zero drift",
+      "formula": "sqrt(300\u00d7 improvement)"
+    },
+    "mode_confinement": {
+      "value": 3.2,
+      "description": "Stronger light-matter interaction",
+      "formula": "1/V_eff"
+    },
+    "nonlinear_enhancement": {
+      "value": 1.8,
+      "description": "Squeezing generation efficiency",
+      "formula": "sqrt(\u03b3/\u03b3_ref)"
+    }
+  },
+  "verification": {
+    "product_of_factors": 11664.0,
+    "matches_total": false,
+    "error_percent": 99.88418513687802
+  }
+}

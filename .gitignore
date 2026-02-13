@@ -1,0 +1,25 @@
+# Data (large)
+data/topological/*.h5
+data/inverse_design/training_images/*.png
+results/**/*.h5
+results/**/*.npy
+results/**/*.pkl
+
+# Logs
+logs/**/*.log
+results/**/tensorboard_logs/
+
+# Checkpoints
+results/inverse_design/vae/checkpoint_*.pth
+results/inverse_design/ga_results/generation_*.h5
+results/topological_pinn/models/checkpoint_*.pth
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temp files
+*.bak
+*.error
+*.tmp
+.DS_Store

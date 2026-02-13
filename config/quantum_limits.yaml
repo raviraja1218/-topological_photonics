@@ -1,0 +1,29 @@
+# Quantum Limits Configuration for Crescent-Moire v1
+# Phase 4 - Heisenberg Limit Calculation
+
+design:
+  name: "Crescent-Moire v1"
+  q_factor: 185000
+  wavelength_nm: 1550
+  mode_volume_lambda_cubed: 0.85
+  nonlinear_gamma_W_per_km: 850
+  loss_dB_per_cm: 0.12
+
+measurement:
+  photon_number: 1.0e10
+  measurement_time_s: 1.0
+  bandwidth_Hz: 1.0
+
+quantum_limits:
+  calculate_sql: true
+  calculate_hl: true
+  squeezing_levels_dB: [0, 10, 20]
+
+comparison_technologies:
+  classical_ring: 2.1e-3
+  nv_center: 3.5e-7
+  superconducting: 1.2e-8
+
+output:
+  csv_precision: 6
+  json_indent: 2

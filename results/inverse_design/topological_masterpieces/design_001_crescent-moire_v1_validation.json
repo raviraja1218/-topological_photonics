@@ -1,0 +1,11 @@
+{
+  "validation_method": "independent_meep_simulation",
+  "chern_number_confirmed": true,
+  "wilson_loop_gap": 0.9261334935106286,
+  "bandgap_meep_meV": 100.54961700238154,
+  "bandgap_error_percent": 3.2869818263605852,
+  "thermal_drift_meep_pm_per_K": 0.007187520240753899,
+  "edge_state_transmission_percent": 98.63360428390075,
+  "fabrication_check_passed": true,
+  "validation_status": "PASSED"
+}

@@ -1,0 +1,4 @@
+squeezing_dB,squeezing_factor,sensitivity_Hz,improvement_factor,distance_to_heisenberg,notes
+0,1,2.09e-10,1.00,13.10,No squeezing (coherent state)
+10,10,6.59e-11,3.16,4.14,Standard lab squeezing
+20,100,2.09e-11,10.00,1.31,State-of-art squeezing

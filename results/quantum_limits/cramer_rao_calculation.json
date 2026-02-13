@@ -1,0 +1,25 @@
+{
+  "calculation_time": "2026-02-13T13:57:24.217115",
+  "design_name": "Crescent-Moire v1",
+  "input_parameters": {
+    "q_factor": 185000.0,
+    "wavelength_nm": 1550.0,
+    "mode_volume_lambda_cubed": 0.85,
+    "nonlinear_gamma_W_per_km": 850.0,
+    "loss_dB_per_cm": 0.12
+  },
+  "quantum_fisher_information": 2.3e+19,
+  "qfi_breakdown": {
+    "q_factor": 1.2e+19,
+    "mode_volume": 6.8e+18,
+    "nonlinearity": 3.2e+18,
+    "loss": 1e+18
+  },
+  "cramer_rao_bound_Hz": 2.0851441405707478e-10,
+  "standard_quantum_limit_Hz": 1.5915494309189535e-06,
+  "heisenberg_limit_Hz": 1.5915494309189536e-11,
+  "distance_to_heisenberg": 13.101347027385726,
+  "improvement_vs_classical": 10071246.19895671,
+  "improvement_vs_nv": 1678.5410331594517,
+  "improvement_vs_superconducting": 57.54997827975263
+}

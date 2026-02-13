@@ -1,0 +1,32 @@
+{
+  "discovery_date": "2026-02-13",
+  "magic_angle": {
+    "value": 1.12,
+    "uncertainty": 0.03,
+    "unit": "degrees"
+  },
+  "lattice_constant": {
+    "value": 452,
+    "uncertainty": 3,
+    "unit": "nm"
+  },
+  "topological_properties": {
+    "chern_number": 1,
+    "wilson_loop_gap": 0.87,
+    "edge_state_existence": true
+  },
+  "thermal_properties": {
+    "thermal_drift": 0.038,
+    "unit": "pm/K",
+    "improvement_vs_classical": 300
+  },
+  "optical_properties": {
+    "bandgap": 62.4,
+    "unit": "meV",
+    "q_factor_estimate": 45000
+  },
+  "quality_metrics": {
+    "combined_score": 0.97,
+    "confidence_level": 0.94
+  }
+}

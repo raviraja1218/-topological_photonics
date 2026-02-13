@@ -1,0 +1,33 @@
+# VAE Configuration for Topological Photonic Crystals
+# Phase 3 - Inverse Design
+
+model:
+  latent_dim: 16
+  input_shape: [64, 64, 1]
+  
+encoder:
+  conv_layers: [32, 64, 128, 256]
+  kernel_size: 3
+  strides: 2
+  dense_before_latent: 512
+
+decoder:
+  dense_after_latent: 512
+  conv_layers: [256, 128, 64, 32]
+  output_activation: sigmoid
+
+loss_weights:
+  reconstruction: 1.0
+  kl_divergence: 0.1
+  topological_regularization: 0.5
+
+training:
+  epochs: 500
+  batch_size: 32
+  learning_rate: 0.001
+  validation_split: 0.1
+  
+topological:
+  chern_weight: 0.3
+  drift_weight: 0.2
+  bandgap_weight: 0.2

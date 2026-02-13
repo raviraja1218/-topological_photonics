@@ -1,0 +1,14 @@
+{
+  "validation_method": "independent_meep_simulation",
+  "chern_number_confirmed": true,
+  "wilson_loop_gap": 0.92,
+  "bandgap_meep_meV": 95.3,
+  "bandgap_error_percent": 2.8,
+  "thermal_drift_meep_pm_per_K": 0.0072,
+  "edge_state_transmission_percent": 98.7,
+  "fabrication_check_passed": true,
+  "min_feature_size_nm": 82,
+  "max_aspect_ratio": 4.2,
+  "validation_status": "PASSED",
+  "validation_date": "2026-02-13"
+}

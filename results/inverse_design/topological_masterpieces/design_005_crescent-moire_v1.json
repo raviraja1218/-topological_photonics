@@ -1,0 +1,45 @@
+{
+  "design_id": "Crescent-Moire v1",
+  "discovery_generation": 80,
+  "latent_coordinates": [
+    0.7027169913107563,
+    -0.23394901190036393,
+    -0.1798355060028168,
+    0.380176459419212,
+    0.10002792192886682,
+    1.253865415995807,
+    0.5679066337491063,
+    -0.7542638133987282,
+    -0.03815433948341941,
+    0.11322370755503348,
+    0.1870793575478893,
+    -0.034239392865513404,
+    -0.6515406860717257,
+    -0.20771717384751115,
+    -0.08622309427263869,
+    -0.290069878602922
+  ],
+  "geometry": {
+    "unit_cell_type": "asymmetric_crescent",
+    "inner_radius_nm": 85,
+    "outer_radius_nm": 115,
+    "offset_nm": 22,
+    "orientation": "alternating",
+    "twist_angle_deg": 1.13,
+    "lattice_constant_nm": 458,
+    "layer_separation_nm": 118
+  },
+  "predicted_properties": {
+    "chern": 2.0,
+    "drift": 0.006682388233341951,
+    "bandgap": 97.99474798245132,
+    "q_factor": 160387.2449242363,
+    "generation": 80.0
+  },
+  "fabrication": {
+    "min_feature_size_nm": 80.64628715399228,
+    "max_aspect_ratio": 4.472349064086741,
+    "cmos_compatible": true,
+    "critical_dimensions": "offset=22\u00b13nm"
+  }
+}

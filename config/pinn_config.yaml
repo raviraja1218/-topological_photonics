@@ -1,0 +1,22 @@
+# Maxwell PINN Parameters - FIXED for 5 input features
+model:
+  architecture: deepxde
+  layers: [5, 100, 100, 100, 100, 1]  # First layer must match input dimension (5)
+  activation: tanh
+  initializer: Glorot uniform
+
+physics:
+  maxwell_residual_weight: 1.0
+  boundary_condition_weight: 0.5
+  topology_regularization_weight: 0.1
+
+training:
+  epochs: 1000
+  batch_size: 64
+  learning_rate: 0.001
+  optimizer: adam
+  loss_metric: L2
+
+validation:
+  split: 0.2
+  k_folds: 5

@@ -1,0 +1,34 @@
+# Genetic Algorithm Configuration for Topological Design Discovery
+# Phase 3 - Inverse Design
+
+model:
+  latent_dim: 16
+
+population:
+  size: 100
+  generations: 200
+  elite_fraction: 0.1
+  
+operators:
+  mutation_rate: 0.1
+  mutation_decay: 0.95
+  crossover_rate: 0.8
+  tournament_size: 3
+
+fitness_weights:
+  chern_number: 1.0
+  thermal_drift: 0.3
+  bandgap: 0.2
+  fabricability: 0.1
+  q_factor: 0.1
+
+constraints:
+  min_feature_size: 80
+  max_aspect_ratio: 5.0
+  min_bandgap: 50
+  max_thermal_drift: 0.1
+
+initialization:
+  method: seeded
+  num_seeds: 50
+  random_rest: 50

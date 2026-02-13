@@ -1,0 +1,28 @@
+# Topological Phase Diagram Grid Configuration
+# For extracting phase diagram from trained PINN
+
+grid:
+  twist_angle:
+    min: 0.5
+    max: 2.5
+    steps: 100
+    unit: degrees
+    
+  lattice_constant:
+    min: 400
+    max: 500
+    steps: 100
+    unit: nm
+    
+fixed_parameters:
+  hole_radius: 100
+  slab_thickness: 220
+  layer_separation: 120
+  temperature: 4
+
+output:
+  calculate_chern: true
+  calculate_thermal_drift: true
+  calculate_bandgap: true
+  temperatures_for_drift: [4, 150, 300]
+  resolution: high

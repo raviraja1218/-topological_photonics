@@ -1,0 +1,36 @@
+# Moiré lattice generation parameters
+parameter_ranges:
+  twist_angle:
+    min: 0.5
+    max: 2.5
+    units: degrees
+    num_points: 5
+  lattice_constant:
+    min: 400
+    max: 500
+    units: nm
+    num_points: 6
+  hole_radius:
+    min: 80
+    max: 120
+    units: nm
+    num_points: 5
+  slab_thickness:
+    min: 200
+    max: 240
+    units: nm
+    num_points: 3
+  layer_separation:
+    min: 50
+    max: 200
+    units: nm
+    num_points: 4
+
+temperatures:
+  values: [4, 150, 300]
+  units: K
+
+dataset:
+  total_designs: 5000
+  meep_validation_ratio: 0.1
+  random_seed: 42
