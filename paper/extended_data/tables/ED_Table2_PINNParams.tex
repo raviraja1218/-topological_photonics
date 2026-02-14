@@ -1,0 +1,28 @@
+\begin{table}[h]
+\caption{PINN architecture and training hyperparameters}
+\label{tab:ed2}
+\begin{tabular}{lcc}
+\hline
+Parameter & Value \\
+\hline
+\multicolumn{2}{l}{\textbf{Architecture}} \\
+Hidden layers & 5 \\
+Neurons per layer & 100 \\
+Activation function & $\tanh$ \\
+Initialization & Glorot uniform \\
+\hline
+\multicolumn{2}{l}{\textbf{Training}} \\
+Epochs & 1000 \\
+Batch size & 64 \\
+Optimizer & Adam \\
+Learning rate & $1 \times 10^{-3}$ \\
+Loss weights: Maxwell residual $\alpha$ & 1.0 \\
+Loss weights: Boundary conditions $\beta$ & 0.5 \\
+Loss weights: Normalization $\gamma$ & 0.1 \\
+\hline
+\multicolumn{2}{l}{\textbf{Performance}} \\
+Final training loss & 0.64 \\
+Validation MAPE & 4.7\% \\
+\hline
+\end{tabular}
+\end{table}
